@@ -1,0 +1,31 @@
+{
+  "name": "date-arbiter",
+  "version": "0.0.0",
+  "description": "Light and powerful date utility that is independent of timezone",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toopham/date-arbiter.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "hour",
+    "minute",
+    "second",
+    "day",
+    "week",
+    "month",
+    "year",
+    "timezone"
+  ],
+  "author": "Tu Pham <toopham@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toopham/date-arbiter/issues"
+  },
+  "homepage": "https://github.com/toopham/date-arbiter#readme"
+}
