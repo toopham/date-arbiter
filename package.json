@@ -1,14 +1,14 @@
 {
   "name": "date-arbiter",
   "version": "0.0.0",
-  "description": "Light and powerful date utility that is independent of timezone",
+  "description": "Light and powerful date utility that deal well with timezone differences. Inspired by dayjs but less complicated. ",
   "main": "index.ts",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toopham/date-arbiter.git"
+    "url": "git+https://github.com/toopham/time-nexus.git"
   },
   "keywords": [
     "date",
@@ -25,7 +25,7 @@
   "author": "Tu Pham <toopham@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/toopham/date-arbiter/issues"
+    "url": "https://github.com/toopham/time-nexus/issues"
   },
-  "homepage": "https://github.com/toopham/date-arbiter#readme"
+  "homepage": "https://github.com/toopham/time-nexus#readme"
 }

@@ -60,8 +60,6 @@ const forgeDateString = (dateObj: DateObject)=>{
 }
 
 export class Pylon {
-
-
     static warp = (dateInput: DateInput, timeZone: string = 'UTC'): DateArchon =>{
         if (isDateArchon(dateInput)) return dateInput;
 
