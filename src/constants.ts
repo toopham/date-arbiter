@@ -8,6 +8,8 @@ export const UNIT_HOUR = 'hour'
 export const UNIT_MINUTE = 'minute'
 export const UNIT_SECOND = 'second'
 export const UNIT_MILLISECOND = 'millisecond'
+export const AM = 'AM';
+export const PM = 'PM';
 
 export const ARRAY_TIME_UNITS = [
     UNIT_YEAR,
@@ -30,3 +32,6 @@ export const GETTER_SETTER_METHODS = {
   [UNIT_SECOND]: 'Seconds',
   [UNIT_MILLISECOND]: 'Milliseconds',
 } as const
+
+export const REGEX_PARSE =
+  /^(\d{4})[/-]?(\d{1,2})?[/-]?(\d{0,2})[\sTt]*(\d{1,2})?:?(\d{1,2})?:?(\d{1,2})?[.:]?(\d+)?$/
